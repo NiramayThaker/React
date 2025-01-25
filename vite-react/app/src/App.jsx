@@ -2,8 +2,10 @@ import './App.css'
 import Test from './test'
 
 function App() {
+  const username = 'abc';
+
     return (
-      <Test />
+      <h1>Hi {username}</h1>
   )
 }
 
