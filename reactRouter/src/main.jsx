@@ -6,6 +6,7 @@ import Layout from './Layout.jsx'
 import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
 import App from './App.jsx'
+import Contact from './components/Contact/Contact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
     children: [
       { path: "", element: <Home />}, 
       { path: "about", element: <About />}, 
+      { path: "contact", element: <Contact />}, 
     ]
   }
 ])
